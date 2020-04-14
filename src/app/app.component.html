@@ -18,6 +18,6 @@
   </li>
 </ul> -->
 <ckeditor [editor]="Editor" [(ngModel)]="model.editorData" (ready)="onReady($event)" (change)="onChange($event)"
-  (click)="click($event)">
+  (click)="click($event)" [config]="config">
 </ckeditor>
 <!-- <router-outlet></router-outlet> -->

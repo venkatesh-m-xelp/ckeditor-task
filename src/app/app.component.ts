@@ -21,6 +21,10 @@ export class AppComponent {
     editorData: '<p id="hello">Hello world!</p>'
   };
 
+  public config = {
+    removePlugins: ['MediaEmbed'], mediaEmbed: {}
+  }
+
   onReady(eventData) {
     eventData.plugins.get('FileRepository').createUploadAdapter = function (loader) {
       return new UploadAdapter(loader);;
