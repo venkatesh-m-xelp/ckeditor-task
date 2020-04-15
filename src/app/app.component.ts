@@ -22,7 +22,7 @@ export class AppComponent {
   };
 
   public config = {
-    removePlugins: ['MediaEmbed'], mediaEmbed: {}
+    removePlugins: ['MediaEmbed', 'Link'], mediaEmbed: {}
   }
 
   onReady(eventData) {
