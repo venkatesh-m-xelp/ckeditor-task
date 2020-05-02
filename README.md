@@ -1,6 +1,6 @@
 # Screenshots
 
-![Optional Text](../master/assets/ckeditor.png)
+![Optional Text](../master/src/assets/ckeditor.png)
 
 # Features included
 
